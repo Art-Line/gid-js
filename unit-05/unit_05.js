@@ -1,7 +1,7 @@
 //  Task 1
-// Кнопка .b-1 запускает функцию t1. Функция должна выводить в .out-1 строку вида:
-//     1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_
-// Разделитель - нижнее подчеркивание. Задача решается с помощью цикла.
+// Button .b-1 runs function t1. The function should output a line like this in .out-1:
+// 1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_
+// Separator - underscore. The task is solved using a loop.
 
 const out1 = document.querySelector('.out-1');
 
@@ -16,9 +16,9 @@ function t1() {
 document.querySelector('.b-1').onclick = t1;
 
 //  Task 2
-// Кнопка .b-2 запускает функцию t2. Функция должна выводить в .out-2 строку вида:
+// Button .b-2 runs function t2. The function should output a line like this in .out-2:
 // 12_14_16_18_20_22_24_26_28_30_32_34_36_38_
-//Разделитель - нижнее подчеркивание. Задача решается с помощью цикла.
+//The separator is underscore. The task is solved using a loop.
 
 const out2 = document.querySelector('.out-2');
 
@@ -34,9 +34,9 @@ document.querySelector('.b-2').onclick = t2;
 
 
 //  Task 3
-// Кнопка .b-3 запускает функцию t3. Функция должна выводить в .out-3 строку вида:
-//  25_24_23_22_21_20_19_18_17_16_15_14_13_12_11_10_9_8_7_
-// Разделитель - нижнее подчеркивание. Задача решается с помощью цикла.
+// Button .b-3 runs function t3. The function should output a line like this in .out-3:
+// 25_24_23_22_21_20_19_18_17_16_15_14_13_12_11_10_9_8_7_
+// Separator - underscore. The task is solved using a loop.
 
 const out3 = document.querySelector('.out-3');
 
@@ -51,9 +51,9 @@ function t3() {
 document.querySelector('.b-3').onclick = t3;
 
 //  Task 4
-// Кнопка .b-4 запускает функцию t4. Функция должна выводить в .out-4 строку вида:
-//     77_74_71_68_65_62_59_56_53_50_47_44_41_38_35_
-// от 77 до 35 c шагом 3. Разделитель - знак подчеркивания. Задача решается с помощью цикла.
+// Button .b-4 runs function t4. The function should output a line like this in .out-4:
+// 77_74_71_68_65_62_59_56_53_50_47_44_41_38_35_
+// from 77 to 35 in increments of 3. The separator is an underscore. The task is solved using a loop.
 
 const out4 = document.querySelector('.out-4');
 
@@ -69,10 +69,10 @@ document.querySelector('.b-4').onclick = t4;
 
 
 //  Task 5
-// Кнопка .b-5 запускает функцию t5. Функция должна выводить в .out-5 строку вида:
+// Button .b-5 runs function t5. The function should output a line like this in .out-5:
 // 1_*2_**3_*4_**5_*6_**7_*8_**9_*10_**11_*12_**13_*14_**15_*16_**17_*
-// от 1 до 17 c шагом 1. Разделитель - знак подчеркивания и звездочка (если число нечетное, и две звездочки если четное). 
-// Задача решается с помощью цикла.
+// from 1 to 17 in increments of 1. The separator is an underscore and an asterisk (if the number is odd, and two asterisks if it is even).
+// The task is solved using a loop.
 
 const out5 = document.querySelector('.out-5');
 
@@ -92,14 +92,14 @@ document.querySelector('.b-5').onclick = t5;
 
 
 //  Task 6
-// Кнопка .b-6 запускает функцию t6. Функция должна выводить в .out-6 строку вида:
+// Button .b-6 runs function t6. The function should output a line like this in .out-6:
 //
 // ******<br>
 // ******<br>
 // ******<br>
 //
-//Задача решается с помощью цикла. В каждой итерации цикл выводит 6 звездочек. Перенос строки - br. 
-// Количество строк (итераций, повторений) цикла вводит пользователь в i-6.
+//The problem is solved using a loop. In each iteration the loop outputs 6 stars. Line break - br.
+// The number of lines (iterations, repetitions) of the loop is entered by the user in i-6.
 //
 
 const out6 = document.querySelector('.out-6');
@@ -117,11 +117,11 @@ document.querySelector('.b-6').onclick = t6;
 
 
 //  Task 7
-// Есть input .i-7 куда пользователь может ввести число больше нуля (проверок не делаем, принимаем как факт).
-// По нажатию кнопки .b-7 должна запускаться функция t7, которая выводит в .out-7 числа от введенного пользователем до нуля включительно.
-// Разделитель - знак подчеркивания. Если пользователь ввел 4 и нажал кнопку, мы получим:
+// There is input .i-7 where the user can enter a number greater than zero (we don’t do any checks, we take it as a fact).
+// When the .b-7 button is pressed, the t7 function should be launched, which displays in .out-7 the numbers from the user entered to zero, inclusive.
+// The separator is an underscore. If the user entered 4 and clicked the button, we would get:
 // 4_3_2_1_0_
-// Задача решается с помощью цикла.
+// The task is solved using a loop.
 
 const out7 = document.querySelector('.out-7');
 
@@ -140,12 +140,12 @@ document.querySelector('.b-7').onclick = t7;
 
 
 //  Task 8
-// Есть input .i-81 и .i-82 куда пользователь может ввести числа больше нуля (проверок не делаем, принимаем как факт).
-// Считаем, что второе число всегда больше первого.
-// По нажатию кнопки .b-8  должна запускаться функция t8, которая выводит в .out-8 числа от первого введенного до второго включительно, с шагом 1.
-// Разделитель подчеркивание. Если пользователь ввел 4 и 8  и нажал кнопку, мы получим:
-//  4_5_6_7_8_
-// Задача решается с помощью цикла.
+// There are input .i-81 and .i-82 where the user can enter numbers greater than zero (we don’t do any checks, we take them as a fact).
+// We assume that the second number is always greater than the first.
+// By pressing the .b-8 button, the t8 function should be launched, which displays in .out-8 the numbers from the first entered to the second, inclusive, in increments of 1.
+// Separator is underscore. If the user entered 4 and 8 and clicked the button, we would get:
+// 4_5_6_7_8_
+// The task is solved using a loop.
 
 const out8 = document.querySelector('.out-8');
 
@@ -164,15 +164,15 @@ function t8() {
 document.querySelector('.b-8').onclick = t8;
 
 
-//  Task 9
-// Есть input .i-91 и .i-92 куда пользователь может ввести числа.
-// По нажатию кнопки .b-9 должна запускаться функция t9, которая выводит в .out-9 числа от меньшего введенного до большего включительно, с шагом 1.
-// Разделитель - подчеркивание. Если пользователь ввел 4 и 8  и нажал кнопку, мы получим:
+//Task 9
+// There are input .i-91 and .i-92 where the user can enter numbers.
+// By pressing the .b-9 button, the t9 function should be launched, which displays in .out-9 the numbers from the smallest entered to the largest, inclusive, in increments of 1.
+// The separator is underscore. If the user entered 4 and 8 and clicked the button, we would get:
 // 4_5_6_7_8_
-// если ввел 8 и 6, то получим
+// if I entered 8 and 6, we get
 // 6_7_8_
-// Задача решается с помощью цикла. Подсказка - вначале делаем проверку, а потом запускаем цикл.
-// цикл - один
+// The task is solved using a loop. Hint - first we do the check, and then we start the loop.
+// loop - one
 
 const out9 = document.querySelector('.out-9');
 
@@ -203,8 +203,8 @@ document.querySelector('.b-9').onclick = t9;
 
 
 //  Task 10
-// Кнопка .b-10 запускает функцию t10. Функция должна выводить в .out-10 четные годы от 1950 до 1970 включительно.
-// Разделитель - знак подчеркивания. Задача решается через цикл, а четность - через шаг (равный 2).
+// Button .b-10 runs function t10. The function should output in .out-10 even years from 1950 to 1970 inclusive.
+// The separator is an underscore. The task is solved through a loop, and parity is solved through a step (equal to 2).
 
 const yearStart = 1950;
 const yearEnd = 1970;
@@ -221,12 +221,12 @@ function t10() {
 document.querySelector('.b-10').onclick = t10;
 
 //  Task 11
-// Кнопка .b-11 запускает функцию t11.  Функция должна:
-//     получить все div.div-11 в переменную divs11
-// перебрать их с помощью цикла. Обращение к div выглядит так divs[i].innerHTML
-// вывести в .out-11 содержимое каждого блока. Разделитель - знак подчеркивания.
-//     В результате должно получиться так:
-//     one_3_4_two_
+// Button .b-11 runs function t11. The function should:
+// get all div.div-11 into divs11 variable
+// go through them using a loop. Calling a div looks like this: divs[i].innerHTML
+// output the contents of each block to .out-11. The separator is an underscore.
+// The result should look like this:
+// one_3_4_two_
 
 const out11 = document.querySelector('.out-11');
 
@@ -244,10 +244,10 @@ function t11() {
 document.querySelector('.b-11').onclick = t11;
 
 //  Task 12
-// Кнопка .b-12 запускает функцию t12.  Функция должна:
-//     получить все div.div-12
-// перебрать их с помощью цикла. Обращение к div выглядит так elem[i]
-// применить к каждому elem[i].style.background = ‘orange’
+// The .b-12 button runs the t12 function. The function should:
+// get all div.div-12
+// go through them using a loop. Calling a div looks like this elem[i]
+// apply to each elem[i].style.background = 'orange'
 
 
 function t12() {
@@ -260,7 +260,7 @@ function t12() {
 document.querySelector('.b-12').onclick = t12;
 
 //  Task 13
-// С помощью цикла присвойте всем input .i-13 value равное 1 для первого, 2 для второго и 3 для третьего.
+// Using a loop, set all input .i-13 values to 1 for the first, 2 for the second, and 3 for the third.
 
 function t13() {
 	const elems = document.querySelectorAll('.i-13');
@@ -272,10 +272,10 @@ function t13() {
 document.querySelector('.b-13').onclick = t13;
 
 //  Task 14
-// Кнопка .b-14 запускает функцию t14  Функция должна:
-//     получить все input.i-14
-// перебрать их с помощью цикла. Обращение к элементу выглядит так elem[i]
-// вывести в .out-14 value выбранного. Проверить выбран ли элемент можно с помощью elem[i].checked.
+// Button .b-14 runs function t14 The function should:
+// get all input.i-14
+// go through them using a loop. Referring to an element looks like this: elem[i]
+// output to .out-14 the value of the selected one. You can check whether an element is selected using elem[i].checked.
 
 const out14 = document.querySelector('.out-14');
 
@@ -292,9 +292,9 @@ function t14() {
 document.querySelector('.b-14').onclick = t14;
 
 //  Task 15
-// Кнопка .b-15 запускает функцию t15  Функция должна выводить следующую последовательность в .out-15:
+// Button .b-15 runs function t15 The function should output the following sequence in .out-15:
 // 10_0_9_1_8_2_7_3_6_4_5_5_4_6_3_7_2_8_1_9_0_10_
-// Подсказка (10 - i) + '_' + i + '_'
+// Hint (10 - i) + '_' + i + '_'
 
 const out15 = document.querySelector('.out-15');
 
