@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: Tahoma, sans-serif;
+}
+
+.city {
+    width: 300px;
+    margin: 50px auto 0;
+    padding: 10px; 
+    display: block;  
+}
+
+.place {
+    width: 300px;
+    margin: 50px auto 0;
+    padding: 30px;
+    border: 2px solid gray;
+}
+.place__name {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+}
+.place__icon {    
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+.place__weather {
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.place__temp,
+.place__wind,
+.place__humidity,
+.place__pressure {
+    padding-bottom: 5px;
+}
